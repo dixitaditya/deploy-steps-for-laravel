@@ -19,7 +19,7 @@
     *mysql>* GRANT ALL ON project1.* TO 'laraveluser'@'localhost' IDENTIFIED BY 'password';
 
 ### Step 5: Flush to notify MySql server for changes
-    *mysql>* FLUSH PRIVILEGES;
+    * mysql> * FLUSH PRIVILEGES;
 
 
 
