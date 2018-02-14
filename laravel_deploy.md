@@ -1,4 +1,4 @@
-# STEPS TO DEPLOY LARAVEL (#### ON DIGITAL OCEAN SERVER)
+# STEPS TO DEPLOY LARAVEL #### (ON DIGITAL OCEAN SERVER)
 
 
 ### Step 1: Install PHP
@@ -49,10 +49,10 @@
 ## Configure Nginx
 
 ### Step10: change the group ownership of the storage and bootstrap/cache directories to www-data
-   $ sudo chgrp -R www-data storage bootstrap/cache
+    $ sudo chgrp -R www-data storage bootstrap/cache
 
 ### Step10: Then recursively grant all permissions, including write and execute, to the group.
-   $ sudo chmod -R ug+rwx storage bootstrap/cache
+    $ sudo chmod -R ug+rwx storage bootstrap/cache
 
 ### Step11: Change in site-available and get domain mapped
 *will add details later*
