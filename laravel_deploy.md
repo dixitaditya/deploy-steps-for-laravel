@@ -13,13 +13,13 @@
     mysql -u root -p
 
 ### Step 3: Create database
-    *mysql>* CREATE DATABASE project1 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+*mysql>* CREATE DATABASE project1 DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 ### Step 4: Grant Privileges *(quotation are required)*
-    *mysql>* GRANT ALL ON project1.* TO 'laraveluser'@'localhost' IDENTIFIED BY 'password';
+*mysql>* GRANT ALL ON project1.* TO 'laraveluser'@'localhost' IDENTIFIED BY 'password';
 
 ### Step 5: Flush to notify MySql server for changes
-    _mysql>_ FLUSH PRIVILEGES;
+    mysql> FLUSH PRIVILEGES;
 
 
 
