@@ -33,8 +33,8 @@
 
 ### Step 7: Install the packages needed by project
     $ cd project1
-    $ composer install
     $ git clone -b branchname https://github.com/laravel/quickstart-basic
+    $ composer install
 
 ### Step 8: Configur .env file for this server
     $ nano .env 
