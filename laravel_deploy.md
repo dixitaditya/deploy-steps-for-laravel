@@ -21,6 +21,9 @@
 
 ### Step 5: Flush to notify MySql server for changes
     mysql> FLUSH PRIVILEGES;
+    
+### EXTRA: Check user having access to database created
+    mysql> select user from mysql.db where db='project1';
 
 
 
